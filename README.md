@@ -1,7 +1,7 @@
 # sass #
 ##CSS Preprocessor##
 
->SASS는 CSS3를 보다 멋지게 활용할 수 있도록 도와 주는 강력한 도구에요. 중첩/변수/믹스인/선택자 상속 등 막강한 기능을 자랑합니다
+>SASS는 CSS3를 보다 멋지게 활용할 수 있도록 도와 주는 강력한 도구입니다. 중첩/변수/믹스인/선택자 상속 등 막강한 기능을 자랑합니다
 
 ## Pre Processor ? ##
 
@@ -65,7 +65,7 @@
 |mkdir     | 디렉토리 생성                       |
 |clear     | CMD 화면 비우기                     |
 
-*<a href="https://github.com/bmatzelle/gow/releases" target="_blank">GOW 다운로드</a>
+* <a href="https://github.com/bmatzelle/gow/releases" target="_blank">GOW 다운로드</a>
 
 ##SASS CSS Preprocessor SASS  프리프로세싱 방법##
 > 브라우저에서 바로 해석될 수 없는 SASS 파일은 사전에 CSS 파일로 변경하는 프리프로세싱 과정을 거쳐야 합니다.
