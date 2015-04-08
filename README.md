@@ -142,25 +142,32 @@ sass-convert style.scss style.sass
 ```
 require 'compass/import-once/activate'
 # compass 플러그인 추가
+# 미디어쿼리를 위한 combiner(설치필요)
+# https://github.com/aaronjensen/sass-media_query_combiner
+require 'sass-media_query_combiner'
 
 # 프로젝트 내 폴더 경로 지정
 http_path = "/"
-css_dir = "stylesheets"
+css_dir = "css"
 sass_dir = "sass"
-images_dir = "images"
-javascripts_dir = "javascripts"
+images_dir = "image"
+javascripts_dir = "js"
+sass_options = {:sourcemap => true}
+enable_sourcemaps = true 
 
 # 소스맵
 sass_options = {:sourcemap => true}
+enable_sourcemaps = true 
 
 # SASS => CSS 변경 시에 변경되는 아웃풋 스타일 설정
 # output_style = :expanded or :nested or :compact or :compressed
+output_style = :nested
 
 # 상대경로 지정 설정
-# relative_assets = true
+relative_assets = true
 
 # 변경된 내용 주석 처리 여부
-# line_comments = false
+line_comments = false
 
 
 # 우선시 할 문법모드 선택
@@ -173,6 +180,7 @@ sass_options = {:sourcemap => true}
 # 그리고 아래 주석을 비활성화해서 명령어를 실행합니다.
 # and then run:
 # sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
+preferred_syntax = :scss
 ```
 
 ####SASS→CSS Output Style####
