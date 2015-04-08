@@ -152,8 +152,6 @@ css_dir = "css"
 sass_dir = "sass"
 images_dir = "image"
 javascripts_dir = "js"
-sass_options = {:sourcemap => true}
-enable_sourcemaps = true 
 
 # 소스맵
 sass_options = {:sourcemap => true}
@@ -221,6 +219,9 @@ preferred_syntax = :scss
 	#main{color:#fff;background-color:#000;}#main p{font-size:16px;}
 ```
 
+###compass watch###
+> 예제파일(chapter) 또는 터미널(Terminal) 구동후 compass init을 한 폴더내에서 ```compass watch```를 입력해주면 실시간으로 rb파일 안 설정해준 scss파일이 watch되는것을 확인할수있습니다.
+![Valid XHTML](https://raw.githubusercontent.com/bjy0329/sass/master/image/intro/compass_watch.gif).
 
 ###CSS 소스맵(Chrome)을 활용한 SASS 코드 에디팅###
 * **<a href="https://developer.chrome.com/devtools/docs/css-preprocessors" target="_blank">설명보기</a>**
