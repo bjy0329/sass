@@ -28,8 +28,6 @@
 
 
 
-
-
 ##Ruby Gem 을 이용해 SASS를 설치합니다.##
 >gem install 명령어를 사용해 SASS 파일을
 운영체제에 설치할 수 있습니다.
