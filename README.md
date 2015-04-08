@@ -157,6 +157,7 @@ enable_sourcemaps = true
 
 # 소스맵
 sass_options = {:sourcemap => true}
+enable_sourcemaps = true 
 
 # SASS => CSS 변경 시에 변경되는 아웃풋 스타일 설정
 # output_style = :expanded or :nested or :compact or :compressed
