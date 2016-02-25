@@ -233,3 +233,24 @@ preferred_syntax = :scss
 
 
 
+## STUDY INFORMATION
+
+| directory         | content                                                                               
+|-------------------|---------------------------------------------------------------------------------------
+| step01            | 설치 및 환경 설정                                                      
+| step02            | SASS Basic Reference                                                      
+|                   | Comments(주석)                                                      
+|                   | Nesting Parent Selector(중첩규칙)                                                      
+|                   | Selector Inheritance(선택자상속)                                                      
+|                   | Import(호출)                                                      
+| step03            | SASS Script Reference                                                      
+|                   | Variables(변수)                                                      
+|                   | Data Type(데이터유형)                                                      
+|                   | Operations(연산)                                                     
+|                   | Mixins                                                     
+|                   | function                                                     
+|                   | Conditions                                                     
+|                   | Loops                                                     
+| step04            | SASS를 편리하게 사용할수있는 Extensions 알아보기                                      
+| step05            | COMPASS (SASS framework인 COPMPASS 알아보기)                                      
+
