@@ -1,7 +1,11 @@
 # sass #
 ##CSS Preprocessor##
 
+<<<<<<< HEAD
 >SASS는 CSS3를 보다 멋지게 활용할 수 있도록 도와 주는 강력한 도구입니다. 중첩/변수/믹스인/선택자 상속 등 막강한 기능을 자랑합니다
+=======
+>SASS는 CSS3를 보다 멋지게 활용할 수 있도록 도와 주는 강력한 도구 입니다. 중첩/변수/믹스인/선택자 상속 등 막강한 기능을 자랑합니다
+>>>>>>> develop
 
 ## Pre Processor ? ##
 
@@ -233,4 +237,25 @@ preferred_syntax = :scss
 * **<a href="http://sass-lang.com/install" target="_blank">지원 가능한 GUI 목록 보기</a>**
 
 
+
+## STUDY INFORMATION
+
+| directory         | content                                                                               
+|-------------------|---------------------------------------------------------------------------------------
+| step01            | 설치 및 환경 설정                                                      
+| step02            | SASS Basic Reference                                                      
+|                   | Comments(주석)                                                      
+|                   | Nesting Parent Selector(중첩규칙)                                                      
+|                   | Selector Inheritance(선택자상속)                                                      
+|                   | Import(호출)                                                      
+| step03            | SASS Script Reference                                                      
+|                   | Variables(변수)                                                      
+|                   | Data Type(데이터유형)                                                      
+|                   | Operations(연산)                                                     
+|                   | Mixins                                                     
+|                   | function                                                     
+|                   | Conditions                                                     
+|                   | Loops                                                     
+| step04            | SASS를 편리하게 사용할수있는 Extensions 알아보기                                      
+| step05            | COMPASS (SASS framework인 COPMPASS 알아보기)                                      
 
