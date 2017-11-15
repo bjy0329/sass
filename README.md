@@ -2,7 +2,7 @@
 ##CSS Preprocessor##
 
 >SASS는 CSS3를 보다 멋지게 활용할 수 있도록 도와 주는 강력한 도구 입니다. 중첩/변수/믹스인/선택자 상속 등 막강한 기능을 자랑합니다.
-
+ 
 ## Pre Processor ? ##
 
 > 웹 브라우저는 **프로세서(Processor)**로서 웹 데이터(HTML, CSS, JS 등)을 다운로드 받은 후, 해석하여 화면에 해석된 데이터를 랜더링됩니다. 다운로드 받은 파일 중 해석 불가능한 파일의 경우는 해석하지 않고 무시하죠. CSS파일이 아닌 **SASS, LESS** 등의 파일을 브라우저는 해석하지 못합니다. SASS, LESS 등 ‘CSS를 강력하게 만들어 줄 스타일 언어’를 활용할 경우, CSS로 변경해 줄 사전 프로세싱 과정이 필요합니다. 이를 ‘브라우저에서 해석되기 전에 미리 프로세싱한다’고 해서 ‘Pre-Processing’한다고 부릅니다.
@@ -22,7 +22,7 @@
 
 
 ####OSX 사용자를 위한 Upgrade Ruby####
->OSX에서 Ruby를 최신 버전으로 업그레이드하려면 Xcode & Homebrew를 먼저 설치한 후, brew 명령어를 통해 최신버전의 ruby를 설치합니다. 설치가 마무리되면 shell 경로에 아래 코드를 추가하고 저장/다시 실행하면 최신 버전의 Ruby를 사용할 수 있습니다. **export PATH="/usr/local/opt/ruby/bin:$PATH"**
+>OSX에서 Ruby를 최신 버전으로 업그레이드하려면 Xcode & Homebrew를 먼저 설치한 후, brew 명령어를 []()통해 최신버전의 ruby를 설치합니다. 설치가 마무리되면 shell 경로에 아래 코드를 추가하고 저장/다시 실행하면 최신 버전의 Ruby를 사용할 수 있습니다. **export PATH="/usr/local/opt/ruby/bin:$PATH"**
 
 * <a href="http://coolestguidesontheplanet.com/upgrading-ruby-osx/" target="_blank">[클릭!!!]</a>
 
